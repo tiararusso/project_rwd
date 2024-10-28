@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #44270f;
+}
+
+.enjoy {
+    padding: 6rem;
+    padding-top: 0;
+}
+
+.titles {
+    text-align: center;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titles h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-color: #dfc42b;
+    padding: .5rem 1rem .25rem 1rem;
+}
+
+.titles h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+
+.titles p {
+    font-family: 'Lato', sans-serif;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.card p {
+    font-family: 'Lato', sans-serif;
+    width: 75%;
+    text-align: center;
+}
+
+.card a {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1rem;
+    background-color: #b81717;
+    padding: .75rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+.card img {
+   max-width:100% ;
+   height:auto ;
+   
+}
+@media screen and (max-width:768px)
+{
+    .cards{
+     flex-direction: column;
+
+    }
+.enjoy{
+    padding: 2rem;
+}
+.titles{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.titles h2 {
+    display: none;
+}
+}
+
